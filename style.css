@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1;
+}
+
+:root {
+    --blue: #0065fc;
+    --white: #ffffff;
+  }
+
+nav{
+    display: flex;
+    align-items: stretch;
+    background-color: #f1f1f1;
+}
+
+.container{
+    max-width: 860px;
+    margin: 0 auto;
+}
+
+.fas{
+    padding: 10px;
+}
+
+#nav__cont{
+    background-color: var(--blue);
+}
+#img__wrapper{
+    background-color: grey;
+}
+#secondHeader{
+    background-color: aqua;
+    min-height: 50px;
+    width: 100%;
+}
+
+#map__wrapper{
+    background-color: white;
+}
+
+#filters{
+    background-color: grey;
+    min-height: 20px;
+}
+
+#filters .fas{
+    color: var(--blue);
+}
